@@ -3,7 +3,7 @@
 # Usage:  wget -qO- https://git.io/wireguard.sh | bash
 # This script will let you setup your own VPN server in no more than a minute, even if you haven't used WireGuard before.
 # It has been designed to be as unobtrusive and universal as possible.
-wg(){
+wg.sh(){
     if [ -e /etc/centos-release ]; then
         DISTRO="CentOS"
     elif [ -e /etc/debian_version ]; then
